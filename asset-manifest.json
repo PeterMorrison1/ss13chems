@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ss13chems/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/ss13chems/static/js/main.0be77054.chunk.js",
+    "main.js.map": "/ss13chems/static/js/main.0be77054.chunk.js.map",
+    "runtime-main.js": "/ss13chems/static/js/runtime-main.7023283d.js",
+    "runtime-main.js.map": "/ss13chems/static/js/runtime-main.7023283d.js.map",
+    "static/js/2.8bfce36b.chunk.js": "/ss13chems/static/js/2.8bfce36b.chunk.js",
+    "static/js/2.8bfce36b.chunk.js.map": "/ss13chems/static/js/2.8bfce36b.chunk.js.map",
+    "static/js/3.e5c95156.chunk.js": "/ss13chems/static/js/3.e5c95156.chunk.js",
+    "static/js/3.e5c95156.chunk.js.map": "/ss13chems/static/js/3.e5c95156.chunk.js.map",
+    "index.html": "/ss13chems/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/ss13chems/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.8bfce36b.chunk.js.LICENSE.txt": "/ss13chems/static/js/2.8bfce36b.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/ss13chems/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7023283d.js",
+    "static/js/2.8bfce36b.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.0be77054.chunk.js"
+  ]
+}
