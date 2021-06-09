@@ -1,72 +1,84 @@
 {
     "name": "Wiki chemistry recipes",
-    "tags": {
-        "medical": {
-            "addictive": "It's addictive.",
-            "medical": "It's a medical chem.",
-            "disease": "Can transmit or heal diseases.",
-            "drug": "It's a drug.",
-            "heal": "Heals damage of some type.",
-            "heart": "Causes or treats heart conditions.",
-            "crit": "Used to stabilize critical patients.",
-            "rad": "Causes or heals radiation poisoning.",
-            "losebreath": "Causes or heals LOSEBREATH.",
-            "oxy": "Causes or heals OXY damage.",
-            "depletion": "Increases the depletion rate of certain other chems in the bloodstream.",
-            "tox": "Causes or heals TOX damage."
-        },
-        "body": {
-            "eye": "Affects vision in some way.",
-            "ear": "Affects hearing in some way.",
-            "allergy": "Causes or heals allergic reactions, e.g. anaphylaxis.",
-            "blindness": "Causes or heals blindness.",
-            "gib": "Causes somebody to explode into gibs.",
-            "drowsiness": "Causes or treats drowsiness.",
-            "dizziness": "Causes or treats dizziness.",
-            "deaf": "Causes or heals deafness.",
-            "mutation": "Causes mutations.",
-            "jitter": "Causes or treats jitteriness."
-        },
-        "damage": {
-            "damage": "Causes damage of some type.",
-            "bleeding": "Affects BLEEDING in some way.",
-            "brain": "Causes or heals BRAIN damage.",
-            "brute": "Causes or heals BRUTE damage.",
-            "burn": "Causes or heals BURN damage.",
-            "burning": "Modifies the BURNING var."
-        },
-        "control": {
-            "movement": "Causes confused movement.",
-            "drunk": "Causes or treats drunkenness. Booze always depletes into ethanol and isn't marked separately.",
-            "hallucinate": "Causes hallucinations.",
-            "ko": "Knocks somebody out completely or puts them to sleep.",
-            "speed": "Grants a speed boost.",
-            "stamina": "Affects stamina in some way.",
-            "stun": "Causes or otherwise affects the duration of stuns.",
-            "paralyze": "Causes paralysis."
-        },
-        "characteristics": {
-            "base": "It's a base element.",
-            "cool": "It's self-cooling.",
-            "heat": "It's self-heating.",
-            "explode": "Causes an explosion.",
-            "hair": "Grows hair.",
-            "ignite": "Can ignite if mixed without stabilizer or when heated.",
-            "overdose": "It has an overdose threshold.",
-            "slippery": "Creates a slippery surface when applied to a floor tile."
-        },
-        "other": {
-            "plant": "Affects plants in some way when present in a hydroponics tray.",
-            "none": "This chemical has no notable categories."
+    "tags": [{
+            "medical": {
+                "addictive": "It's addictive.",
+                "medical": "It's a medical chem.",
+                "disease": "Can transmit or heal diseases.",
+                "drug": "It's a drug.",
+                "heal": "Heals damage of some type.",
+                "heart": "Causes or treats heart conditions.",
+                "crit": "Used to stabilize critical patients.",
+                "rad": "Causes or heals radiation poisoning.",
+                "losebreath": "Causes or heals LOSEBREATH.",
+                "oxy": "Causes or heals OXY damage.",
+                "depletion": "Increases the depletion rate of certain other chems in the bloodstream.",
+                "tox": "Causes or heals TOX damage."
+            },
+            "body": {
+                "eye": "Affects vision in some way.",
+                "ear": "Affects hearing in some way.",
+                "allergy": "Causes or heals allergic reactions, e.g. anaphylaxis.",
+                "blindness": "Causes or heals blindness.",
+                "gib": "Causes somebody to explode into gibs.",
+                "drowsiness": "Causes or treats drowsiness.",
+                "dizziness": "Causes or treats dizziness.",
+                "deaf": "Causes or heals deafness.",
+                "mutation": "Causes mutations.",
+                "jitter": "Causes or treats jitteriness."
+            },
+            "damage": {
+                "damage": "Causes damage of some type.",
+                "bleeding": "Affects BLEEDING in some way.",
+                "brain": "Causes or heals BRAIN damage.",
+                "brute": "Causes or heals BRUTE damage.",
+                "burn": "Causes or heals BURN damage.",
+                "burning": "Modifies the BURNING var."
+            },
+            "control": {
+                "movement": "Causes confused movement.",
+                "drunk": "Causes or treats drunkenness. Booze always depletes into ethanol and isn't marked separately.",
+                "hallucinate": "Causes hallucinations.",
+                "ko": "Knocks somebody out completely or puts them to sleep.",
+                "speed": "Grants a speed boost.",
+                "stamina": "Affects stamina in some way.",
+                "stun": "Causes or otherwise affects the duration of stuns.",
+                "paralyze": "Causes paralysis."
+            },
+            "characteristics": {
+                "base": "It's a base element.",
+                "cool": "It's self-cooling.",
+                "heat": "It's self-heating.",
+                "explode": "Causes an explosion.",
+                "hair": "Grows hair.",
+                "ignite": "Can ignite if mixed without stabilizer or when heated.",
+                "overdose": "It has an overdose threshold.",
+                "slippery": "Creates a slippery surface when applied to a floor tile."
+            },
+            "other": {
+                "plant": "Affects plants in some way when present in a hydroponics tray.",
+                "none": "This chemical has no notable categories."
+            }
         }
-    },
-    "recipes": [
-        { "name": "Aluminium", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Bromine", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
+    ],
+    "recipes": [{
+            "name": "Aluminium",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Bromine",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
         {
             "name": "Carbon",
             "sources": ["Base chemical from the dispenser."],
-            "info": { "application_effect": ["5+ UNITS = Creates dirt when applied to floor tiles."] },
+            "info": {
+                "application_effect": ["5+ UNITS = Creates dirt when applied to floor tiles."]
+            },
             "tags": ["base"]
         },
         {
@@ -98,25 +110,94 @@
                 "eye"
             ]
         },
-        { "name": "Hydrogen", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Iodine", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Iron", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Nitrogen", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Oxygen", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
+        {
+            "name": "Hydrogen",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Iodine",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Iron",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Nitrogen",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Oxygen",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
         {
             "name": "Phosphorous",
-            "info": { "depletion_rate": 0.4, "penetrates_skin": false, "per_plant_cycle": ["66% chance of +1 GROWTH"] },
+            "info": {
+                "depletion_rate": 0.4,
+                "penetrates_skin": false,
+                "per_plant_cycle": ["66% chance of +1 GROWTH"]
+            },
             "sources": ["Base chemical from the dispenser."],
             "tags": ["base", "plant"]
         },
-        { "name": "Silicon", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Silver", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Sodium", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Sulfur", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Chromium", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Copper", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Nickel", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
-        { "name": "Platinum", "sources": ["Base chemical from the dispenser."], "tags": ["base"], "info": {} },
+        {
+            "name": "Silicon",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Silver",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Sodium",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Sulfur",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Chromium",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Copper",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Nickel",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
+        {
+            "name": "Platinum",
+            "sources": ["Base chemical from the dispenser."],
+            "tags": ["base"],
+            "info": {}
+        },
         {
             "name": "Water",
             "tags": ["base", "slippery", "burning", "explode", "plant"],
@@ -259,7 +340,11 @@
             "name": "Helium",
             "sources": ["Helium tanks."],
             "tags": ["base"],
-            "info": { "depletion_rate": 0.4, "penetrates_skin": false, "notes": ["Harmless. Does what you'd expect."] }
+            "info": {
+                "depletion_rate": 0.4,
+                "penetrates_skin": false,
+                "notes": ["Harmless. Does what you'd expect."]
+            }
         },
         {
             "name": "Magnesium",
@@ -360,7 +445,11 @@
             "name": "Phenol",
             "ingredients": ["Water", "Chlorine", "Oil"],
             "reaction_message": "The mixture bubbles and gives off an unpleasant medicinal odor.",
-            "info": { "depletion_rate": 0.4, "penetrates_skin": false, "notes": ["Used for certain medical recipes."] },
+            "info": {
+                "depletion_rate": 0.4,
+                "penetrates_skin": false,
+                "notes": ["Used for certain medical recipes."]
+            },
             "tags": ["none"]
         },
         {
@@ -1791,7 +1880,11 @@
         },
         {
             "name": "Allyl Chloride",
-            "ingredients": [{ "Oil": 1 }, { "Chlorine": 2 }, "Heat"],
+            "ingredients": [{
+                "Oil": 1
+            }, {
+                "Chlorine": 2
+            }, "Heat"],
             "heat_to": 774,
             "reaction_message": "The mixture becomes colorless.",
             "tags": ["burn", "damage", "plant"],
@@ -1804,7 +1897,13 @@
         },
         {
             "name": "Acetic Acid",
-            "ingredients": [{ "Acetaldehyde": 1 }, { "Oxygen": 1 }, { "Nitrogen": 4 }],
+            "ingredients": [{
+                "Acetaldehyde": 1
+            }, {
+                "Oxygen": 1
+            }, {
+                "Nitrogen": 4
+            }],
             "tags": ["brute", "burn", "damage", "plant"],
             "reaction_message": "It smells like vinegar and a bad hangover in here.",
             "info": {
@@ -1850,7 +1949,11 @@
         },
         {
             "name": "Nitric Acid",
-            "ingredients": [{ "Nitrogen Dioxide": 3 }, { "Water": 1 }],
+            "ingredients": [{
+                "Nitrogen Dioxide": 3
+            }, {
+                "Water": 1
+            }],
             "tags": ["brute", "damage", "burn", "plant"],
             "reaction_message": "The mixture gives off a sharp acidic tang.",
             "info": {
@@ -2003,7 +2106,11 @@
         },
         {
             "name": "Chlorine Trifluoride (CLF3)",
-            "ingredients": [{ "Chlorine": 1 }, { "Fluorine": 3 }, "Heat"],
+            "ingredients": [{
+                "Chlorine": 1
+            }, {
+                "Fluorine": 3
+            }, "Heat"],
             "heat_to": 424,
             "reaction_message": "The mixture gives off significant heat.",
             "tags": ["burning", "explode", "damage", "burn"],
@@ -2842,7 +2949,9 @@
             "ingredients": ["Egg", "Colorful Reagent", "Chicken Soup", "Strange Reagent", "Blood", "Heat"],
             "heat_to": 374,
             "reaction_message": "The substance turns an airy sky-blue and foams up into a new shape.",
-            "info": { "notes": ["Makes a parrot upon synthesis, similar to life. Squawk!"] },
+            "info": {
+                "notes": ["Makes a parrot upon synthesis, similar to life. Squawk!"]
+            },
             "tags": ["none"]
         },
         {
@@ -2863,12 +2972,27 @@
         },
         {
             "name": "Copper Nitrate",
-            "ingredients": [{ "Copper": 1 }, { "Nitrogen": 1 }, { "Oxygen": 3 }],
+            "ingredients": [{
+                "Copper": 1
+            }, {
+                "Nitrogen": 1
+            }, {
+                "Oxygen": 3
+            }],
             "reaction_message": "The mixture forms into a blue crystalline solid.",
-            "info": { "depletion_rate": 0.4, "penetrates_skin": false, "notes": ["Inert precursor reagent."] },
+            "info": {
+                "depletion_rate": 0.4,
+                "penetrates_skin": false,
+                "notes": ["Inert precursor reagent."]
+            },
             "tags": ["none"]
         },
-        { "name": "Corn Starch", "sources": ["Extracted from unmutated corn cobs."], "tags": ["none"], "info": {} },
+        {
+            "name": "Corn Starch",
+            "sources": ["Extracted from unmutated corn cobs."],
+            "tags": ["none"],
+            "info": {}
+        },
         {
             "name": "Space Fungus",
             "sources": ["Extracted from any space fungi.", "Use a beaker on fungus patches growing on the walls."],
@@ -2908,8 +3032,18 @@
                 "units_to_infect": 0.8
             }
         },
-        { "name": "Space-Soybean Oil", "sources": ["Extracted from soybean pods."], "tags": ["none"], "info": {} },
-        { "name": "Catonium", "sources": ["Extracted from nepeta cataria plants."], "tags": ["none"], "info": {} },
+        {
+            "name": "Space-Soybean Oil",
+            "sources": ["Extracted from soybean pods."],
+            "tags": ["none"],
+            "info": {}
+        },
+        {
+            "name": "Catonium",
+            "sources": ["Extracted from nepeta cataria plants."],
+            "tags": ["none"],
+            "info": {}
+        },
         {
             "name": "Urine",
             "sources": ["Fill your stomach with water, then use the *piss emote or pee in a drinking glass."],

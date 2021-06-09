@@ -1,25 +1,49 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import { ThemeProvider } from 'styled-components';
+import styled from 'styled-components';
 import './App.css';
-import Browser from './pages/Browser'
+import Browser from './pages/Browser';
+import Recipe from './pages/Recipe';
+import 'antd/dist/antd.css';
+import data from './data.json'
+
+const theme = {
+  light_main: "#ffffff",
+  light_accent: "#9edbd8",
+  dark_main: "#aaaaaa",
+  dark_accent: "#9edbd8"
+}
+
+const Container = styled.div`
+  display: flex;
+`
+
+const MainItem = styled.div`
+  flex-grow: 4;
+`
+
+const SecondaryItem = styled.div`
+  flex-grow: 0;
+  width: 20%;
+`
+
+
 
 function App() {
+  const [recipe, setRecipe] = useState(data.recipes[0])
+  // console.log(data.recipes[0])
+  // setRecipe(data.recipes[0])
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <Browser />
+      <ThemeProvider theme={theme}>
+        <Container>
+          <SecondaryItem><Browser setRecipe={setRecipe} recipeData={data} /></SecondaryItem>
+          <MainItem><Recipe setRecipe={setRecipe} recipeData={recipe}/></MainItem>
+          {/* <SecondaryItem><Browser setRecipe={setRecipe} recipeData={data}/></SecondaryItem> */}
+        </Container>
+      </ThemeProvider>
+
     </div>
   );
 }

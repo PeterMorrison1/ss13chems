@@ -1,0 +1,62 @@
+{
+    "tags": {
+        "medical": {
+            "addictive": "It's addictive.",
+            "medical": "It's a medical chem.",
+            "disease": "Can transmit or heal diseases.",
+            "drug": "It's a drug.",
+            "heal": "Heals damage of some type.",
+            "heart": "Causes or treats heart conditions.",
+            "crit": "Used to stabilize critical patients.",
+            "rad": "Causes or heals radiation poisoning.",
+            "losebreath": "Causes or heals LOSEBREATH.",
+            "oxy": "Causes or heals OXY damage.",
+            "depletion": "Increases the depletion rate of certain other chems in the bloodstream.",
+            "tox": "Causes or heals TOX damage."
+        },
+        "body": {
+            "eye": "Affects vision in some way.",
+            "ear": "Affects hearing in some way.",
+            "allergy": "Causes or heals allergic reactions, e.g. anaphylaxis.",
+            "blindness": "Causes or heals blindness.",
+            "gib": "Causes somebody to explode into gibs.",
+            "drowsiness": "Causes or treats drowsiness.",
+            "dizziness": "Causes or treats dizziness.",
+            "deaf": "Causes or heals deafness.",
+            "mutation": "Causes mutations.",
+            "jitter": "Causes or treats jitteriness."
+        },
+        "damage": {
+            "damage": "Causes damage of some type.",
+            "bleeding": "Affects BLEEDING in some way.",
+            "brain": "Causes or heals BRAIN damage.",
+            "brute": "Causes or heals BRUTE damage.",
+            "burn": "Causes or heals BURN damage.",
+            "burning": "Modifies the BURNING var."
+        },
+        "control": {
+            "movement": "Causes confused movement.",
+            "drunk": "Causes or treats drunkenness. Booze always depletes into ethanol and isn't marked separately.",
+            "hallucinate": "Causes hallucinations.",
+            "ko": "Knocks somebody out completely or puts them to sleep.",
+            "speed": "Grants a speed boost.",
+            "stamina": "Affects stamina in some way.",
+            "stun": "Causes or otherwise affects the duration of stuns.",
+            "paralyze": "Causes paralysis."
+        },
+        "characteristics": {
+            "base": "It's a base element.",
+            "cool": "It's self-cooling.",
+            "heat": "It's self-heating.",
+            "explode": "Causes an explosion.",
+            "hair": "Grows hair.",
+            "ignite": "Can ignite if mixed without stabilizer or when heated.",
+            "overdose": "It has an overdose threshold.",
+            "slippery": "Creates a slippery surface when applied to a floor tile."
+        },
+        "other": {
+            "plant": "Affects plants in some way when present in a hydroponics tray.",
+            "none": "This chemical has no notable categories."
+        }
+    }
+}
