@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/ss13chems/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/ss13chems/static/js/main.0be77054.chunk.js",
-    "main.js.map": "/ss13chems/static/js/main.0be77054.chunk.js.map",
-    "runtime-main.js": "/ss13chems/static/js/runtime-main.7023283d.js",
-    "runtime-main.js.map": "/ss13chems/static/js/runtime-main.7023283d.js.map",
-    "static/js/2.8bfce36b.chunk.js": "/ss13chems/static/js/2.8bfce36b.chunk.js",
-    "static/js/2.8bfce36b.chunk.js.map": "/ss13chems/static/js/2.8bfce36b.chunk.js.map",
-    "static/js/3.e5c95156.chunk.js": "/ss13chems/static/js/3.e5c95156.chunk.js",
-    "static/js/3.e5c95156.chunk.js.map": "/ss13chems/static/js/3.e5c95156.chunk.js.map",
+    "main.css": "/ss13chems/static/css/main.88ede6c1.chunk.css",
+    "main.js": "/ss13chems/static/js/main.b135c7ee.chunk.js",
+    "main.js.map": "/ss13chems/static/js/main.b135c7ee.chunk.js.map",
+    "runtime-main.js": "/ss13chems/static/js/runtime-main.c98ccee7.js",
+    "runtime-main.js.map": "/ss13chems/static/js/runtime-main.c98ccee7.js.map",
+    "static/css/2.c02757eb.chunk.css": "/ss13chems/static/css/2.c02757eb.chunk.css",
+    "static/js/2.f5a12e2b.chunk.js": "/ss13chems/static/js/2.f5a12e2b.chunk.js",
+    "static/js/2.f5a12e2b.chunk.js.map": "/ss13chems/static/js/2.f5a12e2b.chunk.js.map",
+    "static/js/3.f70f529a.chunk.js": "/ss13chems/static/js/3.f70f529a.chunk.js",
+    "static/js/3.f70f529a.chunk.js.map": "/ss13chems/static/js/3.f70f529a.chunk.js.map",
     "index.html": "/ss13chems/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/ss13chems/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.8bfce36b.chunk.js.LICENSE.txt": "/ss13chems/static/js/2.8bfce36b.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/ss13chems/static/media/logo.6ce24c58.svg"
+    "static/css/2.c02757eb.chunk.css.map": "/ss13chems/static/css/2.c02757eb.chunk.css.map",
+    "static/css/main.88ede6c1.chunk.css.map": "/ss13chems/static/css/main.88ede6c1.chunk.css.map",
+    "static/js/2.f5a12e2b.chunk.js.LICENSE.txt": "/ss13chems/static/js/2.f5a12e2b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.7023283d.js",
-    "static/js/2.8bfce36b.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.0be77054.chunk.js"
+    "static/js/runtime-main.c98ccee7.js",
+    "static/css/2.c02757eb.chunk.css",
+    "static/js/2.f5a12e2b.chunk.js",
+    "static/css/main.88ede6c1.chunk.css",
+    "static/js/main.b135c7ee.chunk.js"
   ]
 }
