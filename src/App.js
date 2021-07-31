@@ -5,7 +5,8 @@ import './App.css';
 import Browser from './pages/Browser';
 import Recipe from './pages/Recipe';
 import 'antd/dist/antd.css';
-import data from './data.json'
+// import data from './data.json'
+import data from './data2.json';
 
 const theme = {
   light_main: "#ffffff",
@@ -39,7 +40,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <Container>
           <SecondaryItem><Browser setRecipe={setRecipe} recipeData={data} /></SecondaryItem>
-          <MainItem><Recipe setRecipe={setRecipe} recipeData={recipe}/></MainItem>
+          <MainItem><Recipe setRecipe={setRecipe} recipeData={recipe} recipeList={data}/></MainItem>
           {/* <SecondaryItem><Browser setRecipe={setRecipe} recipeData={data}/></SecondaryItem> */}
         </Container>
       </ThemeProvider>
