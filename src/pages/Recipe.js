@@ -22,7 +22,6 @@ const Recipes = ({ recipeData, setRecipe, recipeList }) => {
 
     // }, [])
 
-    // Declare a new state variable, which we'll call "count"  const [count, setCount] = useState(0);
     return (
         <div>
             <h1>{viewedRecipe.name}</h1>
